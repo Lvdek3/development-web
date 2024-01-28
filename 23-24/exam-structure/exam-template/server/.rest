@@ -11,5 +11,9 @@ content-type: application/json
 }
 #####
 
-GET http://localhost:5000/exam/addWithService?a=5&b=3
+DELETE http://localhost:5000/exam/deletestudent?UserName=Giuseppe
+
 #####
+
+#  GET the users from 100 to 200 with a paginated endpoint
+GET http://localhost:5000/exam?from=0&to=1
